@@ -1,0 +1,124 @@
+body
+{
+	background-color: #bbb; 
+	max-width: 900px ;
+	margin: auto; 
+}
+	
+header
+{
+	background-color: white; 
+	border-radius: 20px 20px 0px 0px ; 
+}
+#wolf-logo
+{
+	position: absolute; 
+	left: 20px ; 
+	top: 20px; 
+	width: 300px;
+}
+header h1
+{
+	text-align: center; 
+	color: black; 
+	text-decoration: blink;
+	/* title on fire */
+	text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200;
+	margin-top: 20px ; 
+	padding-top: 30px ; 
+	font-style: italic ;
+	font-size: 4.6em ; 
+}
+header li 
+{
+	display: inline ; 
+	margin: auto ; 
+	padding: auto ; 
+	text-align: justify;
+}
+header button
+{
+	background-color : orange ; 
+	width: 32% ; 
+}
+
+article
+{
+	background-image: linear-gradient(#ff6c00, #ffcc00) ; 
+	border-radius: 10px; 
+	box-shadow: 20px 20px 12px gray ; 
+	margin-bottom: 70px ; 
+}
+article h2
+{
+	text-align: center; 
+	text-decoration: underline;
+}
+article p 
+{
+	margin: 2px; 
+	padding: 20px ; 
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0px; 
+	background-color: yellow;
+	width: 100%;
+	left: 0px ; 
+	opacity: 0.5 ; 
+}
+footer:hover
+{
+	opacity: 1; 
+}
+
+iframe
+{
+	margin-left: 10px ; 
+	margin-bottom: 3px ; 
+	margin-right: 10px ; 
+	border: solid white 2px ; 
+	
+}
+.hidden
+{
+	display: none ; 
+}
+@media screen and (max-width: 1520px)
+{
+		
+	/* hides the logo */
+	#wolf-logo
+	{
+		display: none; 
+	}
+}
+@media screen and (max-width: 600px)
+{
+	header li
+	{
+		display: block ; 
+	}
+	header button 
+	{
+		width : 100% ; 
+	}
+	header ul 
+	{
+		padding-left : 0px; 
+	}
+	
+	/* reduce the witdh  */
+	body
+	{
+		max-width : 450px ; 
+	}
+	
+}
+
+
+
+
+

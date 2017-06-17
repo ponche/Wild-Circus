@@ -1,0 +1,10 @@
+problème à résoudre : 
+-mettre une marge pour les paragraphe trop coller sur la gauche ( done )
+-mettre une marge en bas pour empecher le footer de cacher article (done)
+-mettre la video en floatant pour que le text englobe la vidéo (cancel) 
+-trouver une accroche pour le header  
+-changer les section par des div pour ne plus avoir le warning de W3c (done) 
+-mettre le label W3c
+-mettre la certification W3c
+-trouver des explications pour les batons sauteurs  (done) 
+
